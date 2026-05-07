@@ -213,8 +213,72 @@
 # print(f"Ganaste en {intentos} intentos")
 
 
-#Conceptos
+#EJERCICIO 6 - Productos Enlatados
 
+#Se necesita hacer un algoritmo de productos enlatados
+#Se debe consultar el peso del producto (en gramos) (solo valores positivos)
+#Se debe consultar el porcentaje de sodio (1-100)
+#Y si se vende nacional o internacional
+
+#Peso menos de 500grs, lata normal
+#Peso hasta 1500gr, lata mediana
+#Peso +1501, lata grande
+#Si el sodio es menos de 5 queda igual.
+#Si es entre 5 y 8, lata especial
+#Si tiene +9, lata acorazada
+#A las latas internacionales, se le debe pegar un sticker y las nacionales no
+#Hacer un resumen de todo
+
+
+# peso=int(input("Ingrese el peso (Gramos): "))
+# while peso <1:
+#     print("ERROR: Solo valores positivos")
+#     peso=int(input("Ingrese el peso (Gramos): "))
+
+# if peso >0 and peso <500:
+#     print("Lata Normal")
+
+# if peso > 500 and peso <1500:
+#     print("Lata Mediana")
+
+# if peso >= 1500:
+#     print("Lata Grande")
+
+
+# sodium=int(input("Ingrese el porcentaje de sodio (1-100): "))    
+# while sodium <1 or sodium >100:
+#     print("ERROR: Ingrese valores del 1 al 100")
+#     sodium=int(input("Ingrese el porcentaje de sodio (1-100): ")) 
+
+# if sodium >0 and sodium <5:
+#     print("Normal")
+
+# if sodium > 5 and sodium <8:
+#     print("Lata Especial")
+
+# if sodium >= 9:
+#     print("Lata Acorazada")
+
+
+# inter=int(input("Seleccione: (1) Nacional (2) Internacional : "))
+# while inter <1 or inter >2:
+#     print("ERROR: Seleccione una opción valida")
+#     inter=int(input("Seleccione: 1.- Nacional 2.- Internacional: "))
+
+# if inter == 1:
+#     print("No sticker") 
+# if inter == 2:
+#     print("Sticker")
+
+
+# if inter == 1:
+#     print(f"RESUMEN: Lata de {peso}gr, con {sodium}% de sodio y sin sticker")
+
+# else:
+#     print(f"RESUMEN: Lata de {peso}gr, con {sodium}% de sodio y con sticker")
+
+
+#CONCEPTOS
 
 
 #MENU
@@ -237,7 +301,6 @@
 #     print("Seleccionaste OP 3")
 # else:
 #     print("Opción Invalida")
-
 
 
 #MENU RECURSIVO (USO DEL MATCH)
